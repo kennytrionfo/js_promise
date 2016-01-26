@@ -2,6 +2,7 @@
 var app = angular.module('testApp', []);
 
 app.controller('PromiseCtrl', function($scope, $http){
+	
 	$scope.getRecords = function(){
 		$http.get('data.json').then(function(result){
 			alert("Success");
