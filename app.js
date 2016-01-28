@@ -1,4 +1,5 @@
 (function(){
+
 var app = angular.module('testApp', []);
 
 app.controller('PromiseCtrl', function($scope, $http){
